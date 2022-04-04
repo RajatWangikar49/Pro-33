@@ -31,7 +31,7 @@ function draw() {
 
 function snow(){
 
-	if (frameCount % 5 === 0){
+	if (frameCount % 2 === 0){
 		var snow1 = createSprite(50, 50);
 		snow1.addImage(snow1Image);
 		snow1.scale = 0.05;
